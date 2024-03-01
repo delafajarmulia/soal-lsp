@@ -1,0 +1,20 @@
+*{
+    color: #27374D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: #9DB2BF;
+    height: 90px;
+    margin-top: -20px;
+}
+a{
+    text-decoration: none;
+}
+.title-nav{
+    padding-top: 25px;
+    padding-left: 100px;
+}

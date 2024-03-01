@@ -1,0 +1,95 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  width: 65%;
+  margin: auto;
+}
+.wrapper h1 {
+  text-align: center;
+  margin: 35px 0;
+  font-size: 30pt;
+}
+.wrapper .atas {
+  display: flex;
+}
+.wrapper tr,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+.wrapper table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+.wrapper thead {
+  background-color: #008bda;
+  font-weight: 500;
+  color: #fff;
+}
+.wrapper .sort {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.wrapper .search {
+  width: 50%;
+  margin-bottom: 20px;
+  text-align: right;
+}
+button:hover {
+  cursor: pointer;
+}
+.wrapper .sort button,
+.search button {
+  padding: 10px;
+  border: 0;
+  background-color: #008bda;
+  border-radius: 5px;
+  font-size: 11pt;
+  color: #fff;
+  font-weight: bold;
+}
+.wrapper .search input {
+  height: 25px;
+  margin-right: 10px;
+  width: 170px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.wrapper td button {
+  border: 0;
+  padding: 5px;
+  color: #fff;
+}
+.wrapper td .setuju {
+  background-color: #4e8b01;
+  border-radius: 3px;
+}
+.wrapper td .hapus {
+  background-color: #ff0000;
+  border-radius: 3px;
+}
+.confirm {
+  text-align: center;
+  margin-top: 200px;
+}
+.btn-cancel {
+  border: 0;
+  padding: 10px;
+  color: #fff;
+  background-color: #ff0000;
+  border-radius: 3px;
+  margin: 5px;
+}
+.btn-confirm {
+  border: 0;
+  padding: 10px;
+  color: #fff;
+  background-color: #4e8b01;
+  border-radius: 3px;
+  margin: 5px;
+}

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: #3c3633;
+  }
+  
+  .container {
+    margin: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.urutkan{
+    display: flex;
+}
+
+.btn-form{
+    margin-left: 20px;
+}
+
+  .urutkan,
+  .cari {
+    margin-top: 30px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    background-color: #e0ccbe;
+    font-size: medium;
+  }
+  
+  button:hover {
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+  }
+  
+  .cari button {
+    margin-left: 10px;
+  }
+  
+  .cari input {
+    height: 35px;
+    width: 300px;
+    border-radius: 7px;
+    border: none;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    font-weight: normal;
+    text-align: center;
+    background-color: white;
+    border-collapse: collapse;
+  }
+  
+  tr {
+    height: 35px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .ubah {
+    color: orange;
+  }
+  
+  .hapus {
+    color: red;
+  }
+  
+  p {
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+  }

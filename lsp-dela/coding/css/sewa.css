@@ -1,0 +1,93 @@
+/* all */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    color: #27374D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* container */
+.con{
+    margin-top: -20px;
+    height: 100vh;
+}
+/* navbar */
+nav{
+    background-color: #9DB2BF;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.title-nav{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+a{
+    margin-top: 43px;
+    padding-right: 100px;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-admin{
+    background-color: #6E8CA4;
+    width: 100px;
+    height: 30px;
+    padding-top: 8px;
+    border-radius: 3px;
+}
+/* card */
+.card{
+    width: 700px;
+    min-height: 500px;
+    background-color: #9DB2BF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.title-card{
+    text-align: center;
+    padding-top: 20px;
+}
+.input-table{
+    margin-left: auto;
+    margin-right: auto;
+}
+tr{
+    height: 35px;
+}
+th, td{
+    padding-left: 15px;
+}
+input{
+    width: 250px;
+    height: 22px;
+    background-color: #DDE6ED;
+    border: none;
+    border-radius: 3px;
+}
+textarea{
+    background-color: #DDE6ED;
+    border: none;
+    border-radius: 3px;
+}
+select{
+    width: 253px;
+    height: 25px;
+    background-color: #DDE6ED;
+    border: none;
+    border-radius: 3px;
+}
+button{
+    width: 253px;
+    height: 35px;
+    background-color: #6E8CA4;
+    border: none;
+    border-radius: 3px;
+}
+.num{
+    height: 23px;
+}
+.date{
+    height: 27px;
+}
