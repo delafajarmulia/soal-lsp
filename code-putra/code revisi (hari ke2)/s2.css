@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:#E0FFFF;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    background-color: #0596a0;
+    color: #FFFFFF;
+    height: 50px;
+    padding: 10px 40px 25px;
+}
+header .judul{
+    width: 75%;
+}
+header .judul a{
+    font-size: 34pt;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header .search{
+    width: 25%;
+    padding-top: 20px;
+}
+header .search input{
+    height: 30px;
+    width: 75%;
+    background-color:#f0f0f0;
+    border-color: white;
+    border-radius: 5px;
+} 
+header .search button{
+    height: 32px;
+    width: 20%;
+    background-color:#f0f0f0;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+} 
+::placeholder{
+    color: #FFFFFF;
+}
+
+.add{
+    display: flex;
+    padding: 20px 40px 0;
+}
+.add .btn-add{
+    width: 75%;
+}
+.add .btn-add .btn{
+    height: 35px;
+    background-color: #0596a0;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 12pt;
+}
+.add .sortir{
+    width: 25%;
+    display: flex;
+}
+.add .sortir p{
+    margin-right: 5px;
+    padding-top: 3px;
+}
+.add .sortir .sort-item{
+    width: 100px;  
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:#0596a0;
+    color: #FFFFFF;
+}
+.add .sortir .btn-sort{
+    width: 60px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:#0596a0;
+    color: #FFFFFF;
+}
+
+main{
+    padding: 10px 40px;
+    text-align: center;
+}
+main table{
+    margin: auto;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+main h2{
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
+main h3{
+    font-size: 18pt;
+    color: #FF0000;
+    margin-top: 50px;
+}
+main table tr th{
+    background-color: #0596a0;
+    font-weight: 100;
+    border: 2px solid #D6D6D6;
+    color: #FFFFFF;
+    width: 150px;
+    padding: 10px;
+}
+main table tr td{
+    background-color: #FFFFFF;
+    font-weight: 100;
+    border: 2px solid #D6D6D6;
+    color: #000000;
+    width: 150px;
+    padding: 10px;
+}
+main .btn-edit{
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #57795a;
+    color: #FFFFFF;
+}
+
+
+
